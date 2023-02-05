@@ -6,6 +6,7 @@ import EmojiBullet from './EmojiBullet';
 import SocialIcon from './SocialIcon';
 import { Box } from '@mui/material';
 import { info } from '../../info/Info';
+import hand from '../../img/hand.png';
 
 export default function Home() {
   return (
@@ -40,7 +41,14 @@ export default function Home() {
             }}>
             {info.firstName}
           </span>
-          <span className={Style.hand}>🤚</span>
+          <span className={Style.hand}>
+            <Box
+              component={'img'}
+              src={hand}
+              width={{ xs: '3vh', md: '5vh' }}
+              height={{ xs: '3vh', md: '5vh' }}
+            />
+          </span>
         </h1>
         <h2>
           I'm {info.position}
