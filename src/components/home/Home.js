@@ -1,6 +1,6 @@
 import React from 'react';
 import Style from './Home.module.scss';
-import me from '../../img/israr.png';
+import me from '../../img/profile-pic1.png';
 import classNames from 'classnames';
 import EmojiBullet from './EmojiBullet';
 import SocialIcon from './SocialIcon';
@@ -14,6 +14,7 @@ export default function Home() {
       component={'main'}
       display={'flex'}
       flexDirection={{ xs: 'column', md: 'row' }}
+      marginTop={{xs:'40px', lg:'0px'}}
       alignItems={'center'}
       justifyContent={'center'}
       minHeight={'calc(100vh - 175px)'}>
@@ -30,7 +31,7 @@ export default function Home() {
         mb={{ xs: '1rem', sm: 0 }}
         mr={{ xs: 0, md: '2rem' }}
       />
-      <Box>
+      <Box  width={{ xs: '50vh', md: '75vh' }}>
         <h1>
           Hi, I'm{' '}
           <span
@@ -52,7 +53,7 @@ export default function Home() {
         </h1>
         <h2>
           I'm {info.position}
-          <h6>({info.skill}).</h6>
+          <h6>{info.skill}.</h6>
         </h2>
 
         <Box component={'ul'} p={'0.8rem'}>
