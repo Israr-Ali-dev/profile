@@ -29,10 +29,50 @@ export default function About() {
             <ul className={Style.skills}>
                 {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
             </ul>
-            <p style={{color: info.baseColor}}> Exposed To</p>
-            <ul className={Style.skills}>
-                {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)}
-            </ul>
+            <p style={{ color: info.baseColor }}>Web Development</p>
+        <ul className={Style.skills}>
+    {info.skills.webDevelopment.map((skill, index) => <li key={index}>{skill}</li>)}
+</ul>
+
+<p style={{ color: info.baseColor }}>Design Systems</p>
+<ul className={Style.skills}>
+    {info.skills.designSystems.map((skill, index) => <li key={index}>{skill}</li>)}
+</ul>
+
+<p style={{ color: info.baseColor }}>Database Management</p>
+<ul className={Style.skills}>
+    {info.skills.databaseManagement.map((skill, index) => <li key={index}>{skill}</li>)}
+</ul>
+
+<p style={{ color: info.baseColor }}>LLM Apps Frameworks</p>
+<ul className={Style.skills}>
+    {info.skills.llmAppsFrameworks.map((skill, index) => <li key={index}>{skill}</li>)}
+</ul>
+
+<p style={{ color: info.baseColor }}>Vector Databases</p>
+<ul className={Style.skills}>
+    {info.skills.vectorDatabases.map((skill, index) => <li key={index}>{skill}</li>)}
+</ul>
+
+<p style={{ color: info.baseColor }}>API & Integration</p>
+<ul className={Style.skills}>
+    {info.skills.apiAndIntegration.map((skill, index) => <li key={index}>{skill}</li>)}
+</ul>
+
+<p style={{ color: info.baseColor }}>CMS & E-Commerce</p>
+<ul className={Style.skills}>
+    {info.skills.cmsAndECommerce.map((skill, index) => <li key={index}>{skill}</li>)}
+</ul>
+
+<p style={{ color: info.baseColor }}>Version Control</p>
+<ul className={Style.skills}>
+    {info.skills.versionControl.map((skill, index) => <li key={index}>{skill}</li>)}
+</ul>
+
+<p style={{ color: info.baseColor }}>AI Tools</p>
+<ul className={Style.skills}>
+    {info.skills.aiTools.map((skill, index) => <li key={index}>{skill}</li>)}
+</ul>
         </>;
     }
 

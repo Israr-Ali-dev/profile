@@ -30,7 +30,7 @@ export const info = {
   lastName: 'Ali',
   initials: 'JS', // the example uses first and last, but feel free to use three or more if you like.
   position: 'a Senior Software Engineer',
-  skill: 'React JS | Redux | Node Js | Next JS | Firebase expert',
+  skill: 'Full-Stack Developer | JS Frameworks | AI Frameworks | React JS | Next JS | Vue JS | Node JS | Database Management | AI Technologies | Design Systems | API Integration | Version Control | E-Commerce Solutions ',
   selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
   baseColor: colors[0],
@@ -73,8 +73,9 @@ export const info = {
     // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
     // Just change the links so that they lead to your social profiles.
   ],
-  bio: "Hello! I'm Israr Ali. Senior Frontend and React JS developer having 5+ years of Experience in the relative field. Worked with clients across the globe. Never founded any barrier in Working New Technologies. I enjoy long walks, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
-  skills: {
+  bio: `Hello! I'm Israr Ali, a Senior Full-Stack Developer with over 6 years of experience, specializing in the MERN stack, JavaScript frameworks, databases, AI databases, and design systems.
+I have a strong passion for emerging technologies, particularly in Artificial Intelligence (AI), including Generative AI and AI Agents. I believe these innovations have the potential to transform our lives and positively impact various sectors.`,
+    skills: {
     proficientWith: [
       'Javascript',
       'React JS',
@@ -88,6 +89,66 @@ export const info = {
       'CSS3',
       'Git',
       'Jira',
+    ],
+    "webDevelopment": [
+      "Node.js",
+      "Express.js",
+      "Vue.js",
+      'React JS',
+      'Next JS',
+      'Redux',
+      'Javascript',
+      'TypeScript',
+      'Tailwind CSS',
+      'HTML5',
+      'CSS3',
+    ],
+    "designSystems": [
+      "Shadcn UI",
+      "Material UI",
+      "Bootstrap",
+      "Storybook"
+    ],
+    "databaseManagement": [
+      "MongoDB",
+      "PostgreSQL",
+      "AI Database",
+      "Neo4j"
+    ],
+    "llmAppsFrameworks": [
+      "LangChain.js",
+      "LangGraph",
+      "FlowiseUI",
+      "Prompt Engineering"
+    ],
+    "vectorDatabases": [
+      "Faiss DB",
+      "Pinecone DB"
+    ],
+    "apiAndIntegration": [
+      "OpenAI",
+      "ChatGPT",
+      "GEMINI",
+      "ClaudeA",
+      "Facebook",
+      "Payment Gateways",
+      "REST",
+      "GraphQL",
+      "Docker"
+    ],
+    "cmsAndECommerce": [
+      "React Dashboard",
+      "WordPress App Development"
+    ],
+    "versionControl": [
+      "Git",
+      "GitHub",
+      "Bitbucket"
+    ],
+    "aiTools": [
+      "ChatGPT",
+      "Bard",
+      "Claude"
     ],
     exposedTo: ['Node JS', 'Vue JS', 'Figma'],
   },
